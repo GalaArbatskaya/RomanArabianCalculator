@@ -28,8 +28,8 @@ public class Calculator {
         else {
             throw new Exception("Числа должны быть в одном формате.");
         }
-        if ((num1 > 10 || num2 > 10)) {
-            throw new Exception("Числа должны быть в интервале от 1 до 10 .");
+        if (( num1 > 10 || num2 > 10)) {
+            throw new Exception("Числа не могут быть более 10.");
         }
         oper = detectOperation(exp);
         int arabian = 0;
